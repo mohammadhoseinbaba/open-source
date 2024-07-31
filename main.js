@@ -5,4 +5,3 @@ backSpeed: 100,
 backDelay: 1000,
 loop: true
 });
-m
