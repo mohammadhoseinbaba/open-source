@@ -1,7 +1,9 @@
 
-function ImageShow() {
+function ImageShow({image}) {
     return (
-      <div>Hi</div>
+     <div >
+      <img src={image.src.small}/>
+     </div>
     );
   }
   

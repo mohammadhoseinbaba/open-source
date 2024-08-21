@@ -1,7 +1,14 @@
+import { render } from "@testing-library/react";
+import ImageShow from "./ImageShow";
 
-function ImageList() {
+function ImageList({images}) {
+
+const renderedImages = images.map((image)=>{
+  return <ImageShow key={image.id} image={image} />
+})
+
     return (
-      <div>Hi</div>
+      <div>{renderedImages}</div>
     );
   }
   
