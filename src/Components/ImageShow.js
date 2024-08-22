@@ -7,5 +7,5 @@ function ImageShow({image}) {
     );
   }
   
-  export default ImageShow;
+  export default ImageSho
   
