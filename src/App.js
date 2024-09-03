@@ -10,7 +10,7 @@ function App() {
     const result = await searchImages(term);
     setImages(result)
 
-    }
+      }
 
   return (
     <div><SearchBar onSubmit={handleSubmit}/>
